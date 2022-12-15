@@ -188,10 +188,10 @@
 #for i in 1,2,3,4,5:
 #    print(i**2)
 
-#r=range(10)
-#for i in range(1,5):
-#for i in range(1,10, 2): # +2 каждому числу, будут выводиться не четные
-#for i in 'Строка в разбивке':
+# r=range(10)
+# # for i in range(1,5):
+# for i in range(1,10, 2): # +2 каждому числу, будут выводиться не четные
+# # for i in 'Строка в разбивке':
 #    print(i)
 
 #                                                                                    НЕМНОГО О СТОКАХ
@@ -230,7 +230,7 @@
 
 # numbers[0]=10
 # print(numbers)#[10,2,3,4,5]
-# for i in numbers:
+# # for i in numbers:
 #     i*=2
 #     print(i)#[20,4,6,8,10]
 #     print(numbers)#[10,2,3,4,5]
