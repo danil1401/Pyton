@@ -18,7 +18,7 @@
 # else:
 #     print('Retur and write from 1 before 7')
 
-#Защита от дурака
+#Защита от дурака пример 
 # day_week=int(input('Write your number of week: '))
 # while day_week not in('1','2','3','4','5','6','7') and day_week !='exit':
 #     day_week=int(input('Write your number of week: '))
