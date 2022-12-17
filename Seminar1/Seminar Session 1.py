@@ -80,13 +80,20 @@
 #Напишите программу, которая будет принимать на вход дробь и показывать первую цифру дробной части числа.
 #6.78->7
 
-# numbers=float(input('Write your numbers: '))
-# numbers//=1
-# print(numbers)
+# num=input('Write number: ')
+# if num.isdigit():# isdigit- оператор определения- если это целочисленное число
+#     print('No')
+# else:
+#     num= int(float(num)*10%10)
+#     print(num)
+    
+#                                                       ЗАДАЧА 5
+#Напишите программу, которая принимает на вход число и проверяет кратно
+#ли оно 5 и 10 или 15, но не кратно 30!
 
-num=float(input('Write number: '))
-if num%1==0:
-    print('No')
+number=int(input('Enter your number: '))
+
+if ((number %5==0 and number%10==0)or number%15==0) and number%30!=0:
+    print('Task compleat')
 else:
-    num= int(num*10%10)
-    print(num)
+    print('Try again')
