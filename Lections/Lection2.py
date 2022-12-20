@@ -237,9 +237,9 @@
 # print(list1)
 
 # если нужно добавить элемент в список
-list1=[1,2,3,4,5]
-print(list1)
-print(list1.insert(2,11))   # функция insert- добавление в индекс 2 значения 11
-print(list1)
-print(list1.append(123))    # функция append- добавляет значение в конец списка
-print(list1)
+# list1=[1,2,3,4,5]
+# print(list1)
+# print(list1.insert(2,11))   # функция insert- добавление в индекс 2 значения 11
+# print(list1)
+# print(list1.append(123))    # функция append- добавляет значение в конец списка
+# print(list1)
