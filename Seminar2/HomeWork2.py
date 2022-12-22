@@ -60,7 +60,24 @@
 
 
 # 18. Реализуйте алгоритм перемешивания списка.
-import random
-a=[1,2,3,4,5,6,7,8]
-random.shuffle(a)
-print(a)
+
+# import random
+# a=[1,2,3,4,5,6,7,8]
+# random.shuffle(a)
+# print(a)
+
+
+        # АЛЬТЕРНАТИВА
+# import datetime
+# def random_int(num):
+#     rand=datetime.datetime.now().microsecond/10**6 # datetime.datetime.now() выводит текущую дату время
+#     return int(num*rand)
+
+# a=[1,2,3,4,5,6,7,8]
+# print(a)
+# random_int(5)
+# for i in range(len(a)-1, -1,-1):
+#     j=random_int(i+1)
+#     a[i],a[j]=a[j],a[i]
+# print(a)
+
