@@ -1,5 +1,8 @@
 #print ("hello w1orld")
 
+import os
+os.system('clear') # отчистка консоли
+
 #a=123
 #b=1.23
 #print(type(a))
