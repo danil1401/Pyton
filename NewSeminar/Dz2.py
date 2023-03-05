@@ -6,6 +6,16 @@
 # 5 -> 1 0 1 1 0
 # 2
 
+# import random
+# n=int(input('Введите количество монет: '))
+# a=[random.randint(0,1) for _ in range(n)]
+# print(a)
+
+# if a.count(0) <=a.count(1):
+#     print('переверни', a.count(0))
+# else:
+#     print('Переверни', a.count(1))
+
 # Задача 12: Петя и Катя – брат и сестра. Петя – студент, а Катя –
 # школьница. Петя помогает Кате по математике. Он задумывает два
 # натуральных числа X и Y (X,Y≤1000), а Катя должна их отгадать. Для
@@ -14,7 +24,31 @@
 # 4 4 -> 2 2
 # 5 6 -> 2 3
 
+# summ=int(input('Значение суммы: '))
+# proiz=int(input('Значение произведения: '))
+# def seacring_numbers(sum,product):
+#     for i in range(sum):
+#         for j in range(product):
+#             if sum == i+j and product == i+j:
+#                 return  'Заданные значения равны {i} и {j}'
+#         return 'Такой комбинации чисел не существует'
+# print(seacring_numbers(summ,proiz))
+
 # Задача 14: Требуется вывести все целые степени двойки (т.е. числа
 # вида 2k
 # ), не превосходящие числа N.
 # 10 -> 1 2 4 8
+
+# n=int(input('Введите число: '))
+# list=[2**i for i in range (n) if 2**i <=n]
+# print(list)
+
+# или
+
+# n=int(input('Введите число: '))
+# i=0
+# result=1
+# while result <=n:
+#     print(result, end=' ')
+#     i+=1
+#     result=2**i
