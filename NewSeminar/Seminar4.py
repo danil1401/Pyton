@@ -70,7 +70,7 @@
 
 from random import randint
 maxnumber=-1
-while(n:= random.randint(0,15)) !=0:
+while(n :=random.randint(0,15)) !=0:
     print(n)
     if n > maxnumber:
         maxnumber=n
