@@ -9,7 +9,7 @@
 # -> 1
 
 n=int(input('Введите количество эдементов в списке: '))
-arr=[int(input('Введите число для списка')) for i in range(n)]
+arr=[int(input('Введите число для списка ')) for i in range(n)]
 print(arr)
 x=int(input('Введите нужное число: '))
 print(f'Число {x} встречается в списке {arr.count(x)} раз')

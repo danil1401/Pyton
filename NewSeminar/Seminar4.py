@@ -68,11 +68,11 @@
 #  n = max_number
 # print(n)
 
-from random import randint
-maxnumber=-1
-while(n :=random.randint(0,15)) !=0:
-    print(n)
-    if n > maxnumber:
-        maxnumber=n
-print(n)
-print(maxnumber)
+# from random import randint
+# maxnumber=-1
+# while(n :=random.randint(0,15)) !=0:
+#     print(n)
+#     if n > maxnumber:
+#         maxnumber=n
+# print(n)
+# print(maxnumber)
