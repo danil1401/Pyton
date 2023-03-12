@@ -8,3 +8,20 @@
 # 2 4 6 8 10 12 10 8 6 4 2
 # 3 6 9 12 15 18
 # 6 12
+
+from random import randint
+
+n=int(input('Введите количесвтво элементом 1го множества: '))
+m=int(input('Введите количесвтво элементом 2го множества: '))
+
+ls1=[randint(0,15)for i in range(n)]
+print(ls1)
+ls2=[randint(0,15)for i in range(m)]
+print(ls2)
+
+ls3=[]
+for item in ls1:
+    if item in ls2 and item not in ls3:
+        ls3.append(item)
+ls3.sort()
+print(ls3)
