@@ -14,3 +14,20 @@
 
 # 4 -> 1 2 3 4
 # 9
+
+import os
+os.system('cls')
+
+import random
+n=int(input('Введите количество кустов: '))
+berries=[random.randint(0,50) for _ in range(n)]
+print(berries)
+
+berries.extend([berries[0], berries[1]])
+
+max_sum=0
+for i in range(len(berries)-2):
+    triple_sum=berries[i]+berries[i+1]+berries[i+2]
+    if triple_sum > max_sum:
+        max_sum = triple_sum
+print(max_sum)
