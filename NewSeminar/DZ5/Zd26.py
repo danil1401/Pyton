@@ -5,11 +5,11 @@
 # # A = 3; B = 5 -> 243 (3⁵)
 # #     A = 2; B = 3 -> 8 
 
-def proizv (numA, numB):
-    if numB == 1:
-        return numA
-    if numB !=1:
-        return numA*proizv (numA, numB-1)
+def proizv (A, B):
+    if B == 1:
+        return A
+    if B !=1:
+        return A*proizv (A, B-1)
 
 a = int(input('Введите число A: '))
 b = int(input('Введите число B: '))

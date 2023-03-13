@@ -6,11 +6,11 @@
 # # 2 2
 # #     4 
 
-def summ(numA, numB):
-    if numA == 0:
-        return numB
+def summ(A, B):
+    if A == 0:
+        return B
 
-    return summ(numA - 1, numB + 1)
+    return summ(A - 1, B + 1)
 
 
 a = int(input('Введите число A: '))
