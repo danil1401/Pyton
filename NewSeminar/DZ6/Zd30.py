@@ -12,3 +12,11 @@ n=int(input('введите номер элемента: '))
 
 arr=list(range(a,a+(n)*b,b))
 print(*arr)
+
+# ЭТАЛОН РЕШЕНИЯ
+
+a1 = int(input())
+d = int(input())
+n = int(input())
+for i in range(n):
+    print(a1 + i * d)
