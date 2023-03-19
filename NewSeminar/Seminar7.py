@@ -60,3 +60,37 @@
 # print(*find_farthest_orbit(orbits))
 # Вывод:
 # 2.5 10
+
+# def find_farthest_orbit(orbits):
+#     return
+# orbits = [(1, 3), (2.5, 10), (7, 2), (6, 6), (4, 3)]
+# print(*max(orbits, key=lambda x: (x[0]!= x[1])*x[0]*x[1]))
+
+
+# Задача №51. Решение в группах
+# Напишите функцию same_by(characteristic, objects), которая
+# проверяет, все ли объекты имеют одинаковое значение
+# некоторой характеристики, и возвращают True, если это так.
+# Если значение характеристики для разных объектов
+# отличается - то False. Для пустого набора объектов, функция
+# должна возвращать True. Аргумент characteristic - это
+# функция, которая принимает объект и вычисляет его
+# характеристику
+
+# Ввод:
+# values = [0, 2, 10, 6]
+# if same_by(lambda x: x % 2, values):
+#     print(‘same’)
+# else:
+# print(‘different’)
+# Вывод:
+# same
+
+values = [0, 2, 10, 6]
+def same_by(f,val):
+    return [x for x in val if not f(x)]==val
+
+if same_by(lambda x:x%2, values):
+    print('same')
+else:
+    print('different')
