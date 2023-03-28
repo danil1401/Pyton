@@ -10,4 +10,4 @@
 # 4. Обнаружение отклонений и аномалий
 # 5. Проверка основных гипотез
 
-https://colab.research.google.com/drive/1riL4pFOtDlsYmJd1eoCuT191aRohJAPm#scrollTo=Ymaaq6xRPJTl
+# https://colab.research.google.com/drive/1riL4pFOtDlsYmJd1eoCuT191aRohJAPm#scrollTo=Ymaaq6xRPJTl
